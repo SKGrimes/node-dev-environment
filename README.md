@@ -494,7 +494,7 @@ for your admin password and propogate settings.
 
 These settings allow the browser to trust the cert, but not every bloody process.
 
-![keychain setup](assets/images/mrkdwn/keychain.png)
+![keychain setup](https://i.imgur.com/YSITAL1.png)
 *note that the common name is incorrect in the picture, it should show something like `*.lokle.dev`.
 
 Dump the dnscache.
@@ -505,7 +505,7 @@ sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flu
 
 This will work in chrome:
 
-![chrome](assets/images/mrkdwn/chrome.png)
+![chrome](https://i.imgur.com/jrgx8vW.png)
 
 ##KeyMetrics PM2
 
